@@ -18,8 +18,6 @@ const objetos = [
 const supermarket = objetos.map((objetos) => Object.keys(objetos));
 console.log(supermarket);
 
-const totalCantidad = objetos
-  .map((objetos) => Object.values(objetos))
-  .flat()
-  .reduce((acc, cur) => acc + cur, 0);
-console.log(totalCantidad);
+const totalCantidad = objetos.map((objeto) => Object.values(objeto));
+
+console.log(totalCantidad.flat());

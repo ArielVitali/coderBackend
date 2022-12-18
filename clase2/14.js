@@ -1,9 +1,16 @@
-console.log("bllall");
+const objetos = [
+  {
+    code: 1,
+  },
+  {
+    code: 1,
+  },
+  {
+    code: 2,
+  },
+];
 
-const number = [2, 3, 4];
+const hola = objetos.map((objetos) => Object.values(objetos));
 
-const cuadrados = number.map((numero) => numero ** 2);
-console.log(cuadrados);
-
-const incluye = cuadrados.includes(16);
-console.log(incluye);
+const incluye = Object.values(hola);
+console.log(hola);

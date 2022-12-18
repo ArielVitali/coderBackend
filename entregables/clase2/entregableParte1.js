@@ -61,6 +61,7 @@ console.log(
 console.log(
   prodManager.addProduct("vfkmklfd", "vlfevl", 12, "/dlkvmf/", 23234, 1)
 );
+console.log(prodManager.getProducts());
 console.log(prodManager.addProduct());
 console.log(prodManager.addProduct());
 console.log(prodManager.getProducts());
