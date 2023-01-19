@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "title": "ARROZ",
+    "description": "Arroz integral",
+    "price": 12,
+    "thumbnail": "./",
+    "code": 23234,
+    "stock": 1
+  },
+  {
+    "id": 2,
+    "title": "ARBEJAS",
+    "description": "Arbejas integrales",
+    "price": 12,
+    "thumbnail": "./",
+    "code": 24342,
+    "stock": 1
+  }
+]

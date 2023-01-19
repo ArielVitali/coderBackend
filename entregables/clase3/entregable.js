@@ -82,6 +82,9 @@ class ProductManager {
   }
 }
 
+module.exports = ProductManager;
+
+/*
 const prodManager = new ProductManager();
 console.log(
   prodManager.addProduct("ARROZ", "Arroz integral", 12, "./", 23234, 1),
@@ -98,3 +101,5 @@ setTimeout(() => {
   fs.unlinkSync("./archivo_persistencia");
   // code to be executed after 10 seconds
 }, 10000);
+
+*/
