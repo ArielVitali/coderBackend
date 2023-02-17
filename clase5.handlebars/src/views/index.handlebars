@@ -1,0 +1,11 @@
+<h1>Bienvenido {{user.name}}!!!!</h1>
+
+{{#if isAdmin}}
+  {{#each foods}}
+    <p>Producto: {{this.name}}</p>
+    <p>Price: ${{this.price}}</p>
+  {{/each}}
+{{else}}
+  <h3>Lo siento {{user.name}}, no eres admin</h3>
+{{/if}}
+<script src="/js/index.js"></script>
