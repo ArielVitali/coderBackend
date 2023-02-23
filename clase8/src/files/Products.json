@@ -1,0 +1,22 @@
+[
+  {
+    "title": "ps4",
+    "description": "playstation 4",
+    "price": 300
+  },
+  {
+    "title": "xbox",
+    "description": "xbox one",
+    "price": 350
+  },
+  {
+    "title": "nintendo",
+    "description": "nintendo switch",
+    "price": 400
+  },
+  {
+    "title": "pc",
+    "description": "pc gaming",
+    "price": 500
+  }
+]
